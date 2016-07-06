@@ -1,0 +1,244 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:2:1-114:12
+	package
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:8:5-43
+MERGED from [face-recognition:openCVLibrary2410:unspecified] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\face-recognition\openCVLibrary2410\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:7.8.0] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:8:15-40
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:11:22-64
+supports-screens
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:13:5-18:39
+	android:largeScreens
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:15:9-36
+	android:smallScreens
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:18:9-36
+	android:normalScreens
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:16:9-37
+	android:resizeable
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:17:9-34
+	android:anyDensity
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:14:9-34
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:20:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:23:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:26:9-57
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:32:9-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:35:5-75
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:35:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:36:22-77
+application
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:38:5-112:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:7.8.0] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:40:9-41
+	android:icon
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:39:9-38
+	android:theme
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:41:9-40
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:42:9-44:69
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:44:13-66
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:43:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:45:9-47:36
+	android:value
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:46:13-70
+activity#org.opencv.javacv.facerecognition.FdActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:49:9-53:53
+	android:screenOrientation
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:53:13-50
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:52:13-45
+	android:configChanges
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:51:13-63
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:50:13-39
+activity#org.opencv.javacv.facerecognition.ImageGallery
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:54:9-64:20
+	android:screenOrientation
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:58:13-50
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:57:13-45
+	android:configChanges
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:56:13-63
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:55:13-41
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:59:13-63:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:62:27-73
+activity#org.opencv.javacv.facerecognition.MainActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:65:9-67:41
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:67:13-38
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:66:13-41
+activity#org.opencv.javacv.facerecognition.SplashActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:68:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:72:13-49
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:71:13-45
+	android:configChanges
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:70:13-63
+	android:theme
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:73:13-63
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:69:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:74:13-78:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:77:17-77
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:77:27-74
+activity#org.opencv.javacv.facerecognition.TrainFaceTrackerActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:80:9-84:66
+	android:screenOrientation
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:83:13-51
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:82:13-41
+	android:theme
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:84:13-63
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:81:13-53
+activity#org.opencv.javacv.facerecognition.RecognizerFaceTrackerActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:85:9-89:66
+	android:screenOrientation
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:88:13-51
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:87:13-41
+	android:theme
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:89:13-63
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:86:13-58
+activity#org.opencv.javacv.facerecognition.NewUserActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:90:9-92:42
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:92:13-39
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:91:13-44
+activity#org.opencv.javacv.facerecognition.UsuarioDetectadoActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:93:9-96:47
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:95:13-36
+	android:theme
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:96:13-44
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:94:13-53
+activity#org.opencv.javacv.facerecognition.chat.HelloBubblesActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:97:9-100:47
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:99:13-33
+	android:theme
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:98:13-54
+activity#org.opencv.javacv.facerecognition.OpcionesActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:101:9-103:40
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:102:13-45
+activity#org.opencv.javacv.facerecognition.UsuariosActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:104:9-106:40
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:106:13-37
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:105:13-45
+activity#org.opencv.javacv.facerecognition.PermisosActivity
+ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:107:9-111:20
+	android:label
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\AndroidManifest.xml:108:13-45

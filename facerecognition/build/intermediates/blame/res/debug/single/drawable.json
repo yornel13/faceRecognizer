@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\bubble_yellow.9.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\bubble_yellow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable\\common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\universidad_agraria.jpg",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\universidad_agraria.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable\\common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\rotate_camera.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\rotate_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_button.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\bubble_green.9.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\bubble_green.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_stat_camera.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\ic_stat_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable\\lightbulb.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable\\lightbulb.png"
+    }
+]

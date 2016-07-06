@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.8.0_9ae606053864ea9bc404be26a18fd0e1b98122c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-7.8.0_3814464bd611437e9150edce0a107fa05e55fd4a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\libs\javacpp.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="08f8b1e3fdcc93a1e9076d6279864d6a46982a85">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\javacpp_6ce7461b94c2edc42be9e114a9eb8f438dfb9996.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.1_b89adea2e4cf56f8847c786f6b2b2dde3a9e5ab2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_6e1acdc9a79c88e7b822e1ccfa6cd80e8598fb0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\com.github.markushi-circlebutton-1.1_f2eb2f9b47215dcc2bc42baf8dbeaf0423c43303.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_0e6f25555da54390f93451ffdb14171655d28a92.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_dded1babb8e3675888826f619b82bd14731e857d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\face-recognition\openCVLibrary2410\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b326b9871d6559ab8baecfa5282cbd245d3cf30">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\face-recognition-openCVLibrary2410-unspecified_1b6c541f55222170d57ea4da7487df91495bf01c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\libs\javacv.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1824ed7a180ee32aa57f5632a489c10aad8f1804">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\javacv_3df25720956f8087a55c2156023ec4534cf64e7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_779e2a6e83d057700af587743be4143ea66e6eb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yornel\Downloads\face-recognition\facerecognition\libs\mysql-connector-java-3.0.17-ga-bin.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3d8b493d12562fc904a947ea7b84394fe67e8a55">
+        <dex dex="C:\Users\Yornel\Downloads\face-recognition\facerecognition\build\intermediates\pre-dexed\debug\mysql-connector-java-3.0.17-ga-bin_04788587a3f5fafc68c79522646d2425c8a6fed5.jar" />
+    </item>
+
+</items>
