@@ -44,6 +44,18 @@
       android:layout_alignParentBottom="true"
       android:layout_alignParentRight="true" />
 
+  <at.markushi.ui.CircleButton
+      android:layout_width="70dip"
+      android:layout_height="70dip"
+      android:src="@drawable/ic_save_white_24dp"
+      app:cb_color="@color/colorPrimary"
+      app:cb_pressedRingWidth="8dip"
+      android:layout_margin="@dimen/activity_horizontal_margin"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:onClick="onSave"
+      android:id="@+id/guardar" />
+
   <TextView
       android:text=""
       android:id="@+id/timer"

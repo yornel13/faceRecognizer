@@ -58,6 +58,11 @@
           <theme>@android:style/Theme.Material.Light</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/facerecognition/src/main/res/menu/menu_editar.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/facerecognition/src/main/res/menu/menu_usuario_detectado.xml">
         <config>
           <theme>@android:style/Theme.Material.Light</theme>
@@ -69,7 +74,271 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efafcc22-6053-4d33-a948-6623b7dc7a91" name="Default" comment="" />
+    <list default="true" id="efafcc22-6053-4d33-a948-6623b7dc7a91" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/drawable-hdpi/ic_save_white_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/drawable-mdpi/ic_save_white_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/drawable-xhdpi/ic_save_white_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/drawable-xxhdpi/ic_save_white_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/drawable-xxxhdpi/ic_save_white_24dp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/drawable/add_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/AddFaceTrackerActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/NuevoUsuarioActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioRecognizerNew.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/BorrarUsuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/BuscaUsuarioPorCedula.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/CargarUsuarioParaReconocimiento.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/layout/cedula_dialog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/menu/menu_editar.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/androidTest/debug/org/opencv/javacv/facerecognition/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/NewUserActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/NewUserActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/AsyncServiceHelper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/AsyncServiceHelper$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/AsyncServiceHelper$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/AsyncServiceHelper$3$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/AsyncServiceHelper$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/AsyncServiceHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/BaseLoaderCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/CameraBridgeViewBase$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/CameraBridgeViewBase$CvCameraViewFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/CameraBridgeViewBase$ListItemAccessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/CameraBridgeViewBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/FpsMeter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/InstallCallbackInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/JavaCameraView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/JavaCameraView$CameraWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/JavaCameraView$JavaCameraFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/JavaCameraView$JavaCameraSizeAccessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/JavaCameraView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/LoaderCallbackInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/NativeCameraView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/NativeCameraView$CameraWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/NativeCameraView$NativeCameraFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/NativeCameraView$OpenCvSizeAccessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/NativeCameraView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/OpenCVLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/StaticHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/android/Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/calib3d/Calib3d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/calib3d/StereoBM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/calib3d/StereoSGBM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/contrib/Contrib.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/contrib/FaceRecognizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/contrib/StereoVar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Algorithm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Core$MinMaxLocResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Core.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/CvException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/CvType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Mat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfByte.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfDMatch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfDouble.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfFloat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfFloat4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfFloat6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfInt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfInt4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfKeyPoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfPoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfPoint2f.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfPoint3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfPoint3f.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/MatOfRect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Point.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Point3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Range.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Rect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/RotatedRect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Scalar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/Size.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/core/TermCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/engine/OpenCVEngineInterface$Stub$Proxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/engine/OpenCVEngineInterface$Stub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/engine/OpenCVEngineInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/features2d/DMatch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/features2d/DescriptorExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/features2d/DescriptorMatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/features2d/FeatureDetector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/features2d/Features2d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/features2d/GenericDescriptorMatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/features2d/KeyPoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/gpu/DeviceInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/gpu/Gpu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/gpu/TargetArchs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/highgui/Highgui.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/highgui/VideoCapture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/imgproc/CLAHE.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/imgproc/Imgproc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/imgproc/Moments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/imgproc/Subdiv2D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvANN_MLP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvANN_MLP_TrainParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvBoost.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvBoostParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvDTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvDTreeParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvERTrees.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvGBTrees.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvGBTreesParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvKNearest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvNormalBayesClassifier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvParamGrid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvRTParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvRTrees.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvSVM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvSVMParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/CvStatModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/EM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/ml/Ml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/objdetect/CascadeClassifier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/objdetect/HOGDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/objdetect/Objdetect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/photo/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/utils/Converters.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/video/BackgroundSubtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/video/BackgroundSubtractorMOG.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/video/BackgroundSubtractorMOG2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/video/KalmanFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facerecognition/build/tmp/expandedArchives/classes.jar_8at8kpziomec37y98jfaqzr19/org/opencv/video/Video.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/NewUserActivity.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/EditarUsuarioActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_facerecognition_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/com/google/android/gms/vision/R$drawable.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/com/google/android/gms/vision/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/FdActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/FdActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/ImageGallery.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/ImageGallery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/MainActivity$1.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/MainActivity$2.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/MainActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/OpcionesActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/OpcionesActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/PermisosActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/PermisosActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$drawable.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$id.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$integer.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$layout.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$menu.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$raw.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$string.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$style.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$styleable.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$1.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$2.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$3.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$4.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$5.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$6.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$7.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$8.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$GraphicFaceTracker.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$GraphicFaceTracker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$GraphicFaceTrackerFactory.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity$GraphicFaceTrackerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/SplashActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity$6.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity$GraphicFaceTracker.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity$GraphicFaceTracker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity$GraphicFaceTrackerFactory.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity$GraphicFaceTrackerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuariosActivity$AdapterUsuarios$1.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuariosActivity$AdapterUsuarios$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuariosActivity$AdapterUsuarios.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuariosActivity$AdapterUsuarios.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuariosActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/UsuariosActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/asyncTask/ListarUsuarios.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/asyncTask/ListarUsuarios.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario$NuevoUsuarioCompletado.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario$NuevoUsuarioCompletado.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/chat/DiscussArrayAdapter.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/chat/DiscussArrayAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/chat/HelloBubblesActivity.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/chat/HelloBubblesActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/db/BDConectar.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/db/BDConectar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/db/BDUsuario.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/db/BDUsuario.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/model/Usuario.class" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/classes/debug/org/opencv/javacv/facerecognition/model/Usuario.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_779e2a6e83d057700af587743be4143ea66e6eb3.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_779e2a6e83d057700af587743be4143ea66e6eb3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_b89adea2e4cf56f8847c786f6b2b2dde3a9e5ab2.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_b89adea2e4cf56f8847c786f6b2b2dde3a9e5ab2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_0e6f25555da54390f93451ffdb14171655d28a92.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_0e6f25555da54390f93451ffdb14171655d28a92.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.github.markushi-circlebutton-1.1_f2eb2f9b47215dcc2bc42baf8dbeaf0423c43303.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.github.markushi-circlebutton-1.1_f2eb2f9b47215dcc2bc42baf8dbeaf0423c43303.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.8.0_9ae606053864ea9bc404be26a18fd0e1b98122c3.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.8.0_9ae606053864ea9bc404be26a18fd0e1b98122c3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-7.8.0_3814464bd611437e9150edce0a107fa05e55fd4a.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-7.8.0_3814464bd611437e9150edce0a107fa05e55fd4a.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/debug_3bad4f8fc91b8c7f76fba7db4e86a4dafa78eab6.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/debug_3bad4f8fc91b8c7f76fba7db4e86a4dafa78eab6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/face-recognition-openCVLibrary2410-unspecified_1b6c541f55222170d57ea4da7487df91495bf01c.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/face-recognition-openCVLibrary2410-unspecified_1b6c541f55222170d57ea4da7487df91495bf01c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_dded1babb8e3675888826f619b82bd14731e857d.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_dded1babb8e3675888826f619b82bd14731e857d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/javacpp_6ce7461b94c2edc42be9e114a9eb8f438dfb9996.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/javacpp_6ce7461b94c2edc42be9e114a9eb8f438dfb9996.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/javacv_3df25720956f8087a55c2156023ec4534cf64e7d.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/javacv_3df25720956f8087a55c2156023ec4534cf64e7d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/mysql-connector-java-3.0.17-ga-bin_04788587a3f5fafc68c79522646d2425c8a6fed5.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/mysql-connector-java-3.0.17-ga-bin_04788587a3f5fafc68c79522646d2425c8a6fed5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_6e1acdc9a79c88e7b822e1ccfa6cd80e8598fb0c.jar" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_6e1acdc9a79c88e7b822e1ccfa6cd80e8598fb0c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/outputs/apk/facerecognition-debug-unaligned.apk" afterPath="$PROJECT_DIR$/facerecognition/build/outputs/apk/facerecognition-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/outputs/apk/facerecognition-debug.apk" afterPath="$PROJECT_DIR$/facerecognition/build/outputs/apk/facerecognition-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/circlebutton_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/circlebutton_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_7_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/com/google/android/gms/vision/R.java" afterPath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/com/google/android/gms/vision/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/org/opencv/javacv/facerecognition/R.java" afterPath="$PROJECT_DIR$/facerecognition/build/generated/source/r/debug/org/opencv/javacv/facerecognition/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/blame/res/debug/single/menu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/res/merged/debug/layout/activity_new_user.xml" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/res/merged/debug/layout/activity_new_user.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/res/merged/debug/layout/activity_train.xml" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/res/merged/debug/layout/activity_train.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/res/merged/debug/layout/usuario_item_row.xml" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/res/merged/debug/layout/usuario_item_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/facerecognition/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/facerecognition/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/facerecognition.iml" afterPath="$PROJECT_DIR$/facerecognition/facerecognition.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/facerecognition/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/MainActivity.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PermisosActivity.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PermisosActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuariosActivity.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuariosActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/ListarUsuarios.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/ListarUsuarios.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDConectar.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDConectar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDUsuario.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDUsuario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/model/Usuario.java" afterPath="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/model/Usuario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_new_user.xml" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_new_user.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_train.xml" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_train.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facerecognition/src/main/res/layout/usuario_item_row.xml" afterPath="$PROJECT_DIR$/facerecognition/src/main/res/layout/usuario_item_row.xml" />
+    </list>
     <ignored path="face-recognition.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,12 +364,27 @@
     <favorites_list name="face-recognition" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EditarUsuarioActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/EditarUsuarioActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="553" column="78" selection-start-line="553" selection-start-column="78" selection-end-line="553" selection-end-column="78" />
+              <folding>
+                <element signature="e#6844#6991#0" expanded="true" />
+                <element signature="e#6990#6991#0" expanded="true" />
+                <element signature="e#13467#16506#0" expanded="true" />
+                <element signature="e#16505#16506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BDConectar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDConectar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1954023">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.07816092">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -117,6 +401,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -2513,24 +2800,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/OpenCVFaceRecognizer.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/AsyncTask/ListarUsuarios.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/FdActivity2.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PersonRecognizer2.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_recognizer.xml" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/AsyncTask/Fdgfdgfdgfd.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PersonRecognizer3.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/FdActivity3.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/AsyncTask/gfdgfdgdfgdgfd2.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PersonRecognizerNew.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UusarioRecognizer.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_train.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/login_dialog.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/usuarios_item_row.xml" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/usuario_item_row.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/AsyncTask/ListarUsuariosParaPermisos.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_usuarios.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/drawable/custom_button.xml" />
@@ -2540,29 +2813,43 @@
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PersonRecognizer.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/FdActivity.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/ReconocimientoCaras.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/MainActivity.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/model/Permiso.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDPermiso.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/UpdateUsuarioPermisos.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceDetector.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RecognizerFaceDetector.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_permisos.xml" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_opciones.xml" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/model/Usuario.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/chat/HelloBubblesActivity.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDUsuario.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuariosActivity.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PermisosActivity.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/OpcionesActivity.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.java" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/NewUserActivity.java" />
         <option value="$PROJECT_DIR$/facerecognition/build.gradle" />
-        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_new_user.xml" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceDetector.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_train.xml" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/NewUserActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/cedula_dialog.xml" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/BuscaUsuarioPorCedula.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioRecognizer.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/CargarUsuarioParaReconocimiento.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/ListarUsuarios.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/MainActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/Test/PersonRecognizer.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioRecognizerNew.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/usuario_item_row.xml" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/BorrarUsuario.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PermisosActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDUsuario.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_new_user.xml" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/res/menu/menu_editar.xml" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/AddFaceTrackerActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/NuevoUsuarioActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuariosActivity.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/model/Usuario.java" />
+        <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/EditarUsuarioActivity.java" />
         <option value="$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDConectar.java" />
       </list>
     </option>
@@ -2570,7 +2857,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -2598,23 +2885,84 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="face-recognition" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facerecognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facerecognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-recognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facerecognition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2699,6 +3047,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -2707,7 +3066,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="00e0f1eaaaad8e46" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/face-recognition" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/IngenioSC-app" />
     <property name="android.project.structure.last.selected" value="facerecognition" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/facerecognition/src/main/res/drawable" />
@@ -2725,16 +3084,17 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.opencv.javacv.facerecognition" />
+      <recent name="org.opencv.javacv.facerecognition.asyncTask" />
       <recent name="org.opencv.javacv.facerecognition.db" />
       <recent name="org.opencv.javacv.facerecognition.AsyncTask" />
-      <recent name="org.opencv.javacv.facerecognition" />
       <recent name="org.opencv.javacv.facerecognition.DataBase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\java\org\opencv\javacv\facerecognition" />
-      <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\res\raw" />
       <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\res\drawable" />
-      <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\jniLibs\armeabi-v7a" />
+      <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\res\menu" />
+      <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\java\org\opencv\javacv\facerecognition\Test" />
+      <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\res\layout" />
       <recent name="C:\Users\Yornel\Downloads\face-recognition\facerecognition\src\main\res" />
     </key>
   </component>
@@ -2757,15 +3117,15 @@
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
       <Native>
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
       </Native>
       <Java />
-      <Hybrid>
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Hybrid>
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
@@ -2792,15 +3152,15 @@
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
       <Native>
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
       </Native>
       <Java />
-      <Hybrid>
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Hybrid>
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
@@ -2978,15 +3338,15 @@
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
       <Native>
         <option name="WORKING_DIR" value="" />
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
       </Native>
       <Java />
-      <Hybrid>
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      </Hybrid>
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
@@ -3024,37 +3384,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25053304" sideWeight="0.50664455" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5053305" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5053305" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.49335548" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25053304" sideWeight="0.50664455" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946351" sideWeight="0.49335548" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3073,210 +3433,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/usuario_item_row.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39306358">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/ListarUsuarios.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39547038">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/ListarUsuariosParaPermisos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70383275">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_permisos.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14643545">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_usuarios.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55684006">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/drawable/custom_button.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9616788">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary2410/src/main/java/org/opencv/android/AsyncServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/facerecognition/libs/javacv.jar!/com/googlecode/javacv/cpp/opencv_core.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3440095">
-          <caret line="1833" column="26" selection-start-line="1833" selection-start-column="26" selection-end-line="1833" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/content/res/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="2196" column="15" selection-start-line="2196" selection-start-column="15" selection-end-line="2196" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/facerecognition/libs/javacv.jar!/com/googlecode/javacv/cpp/opencv_objdetect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56465006">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33275262">
-          <caret line="433" column="29" selection-start-line="433" selection-start-column="29" selection-end-line="433" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/UpdateUsuarioPermisos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31264368">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/NuevoMensaje.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/raw/haarcascade_eye_tree_eyeglasses.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4229858">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04161567">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28554502">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_recognizer.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22944786">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/util/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/facerecognition/libs/javacv.jar!/com/googlecode/javacv/cpp/opencv_imgproc.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3440095">
-          <caret line="704" column="30" selection-start-line="704" selection-start-column="30" selection-end-line="704" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/CountDownTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33275262">
-          <caret line="85" column="45" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_permisos.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7251534">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_usuario_detectado.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4588957">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="36" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_opciones.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33251533">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33275262">
           <caret line="371" column="18" selection-start-line="371" selection-start-column="18" selection-end-line="371" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/model/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5275862">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -3287,41 +3457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDUsuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7390804">
-          <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuariosActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="61" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RoundedImageView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3329,38 +3464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/ReconocimientoCaras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="164" column="93" selection-start-line="164" selection-start-column="85" selection-end-line="164" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PersonRecognizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PermisosActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="54" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/OpcionesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -3392,30 +3499,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.43554">
-          <caret line="528" column="45" selection-start-line="528" selection-start-column="45" selection-end-line="528" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facerecognition/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5471264">
           <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_new_user.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41595092">
-          <caret line="115" column="45" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3426,28 +3513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioRecognizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5275862">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/NewUserActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/dbface.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.42643678">
@@ -3455,10 +3520,325 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/ReconocimientoCaras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5011494">
+          <caret line="164" column="93" selection-start-line="164" selection-start-column="85" selection-end-line="164" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31609195">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="35" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/ListarMensajes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07816092">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDMensaje.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_train.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.581819">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/login_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/cedula_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20858896">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/ListarUsuarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.254023">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioRecognizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6234004">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="38" selection-start-line="147" selection-start-column="38" selection-end-line="147" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/OpcionesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7229885">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/usuario_item_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4727273">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/BorrarUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56666666">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/content/DialogInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8436782">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/TrainFaceTrackerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01954023">
+          <caret line="406" column="35" selection-start-line="404" selection-start-column="11" selection-end-line="406" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioRecognizerNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01954023">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/BuscaUsuarioPorCedula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58965516">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuarioDetectadoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7034483">
+          <caret line="61" column="63" selection-start-line="58" selection-start-column="8" selection-end-line="61" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56398106">
+          <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
+          <folding>
+            <element signature="e#1384#1402#0" expanded="true" />
+            <element signature="e#1547#1586#0" expanded="true" />
+            <element signature="e#1862#1880#0" expanded="true" />
+            <element signature="e#2082#2100#0" expanded="true" />
+            <element signature="e#2625#2643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/UpdateUsuarioPermisos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/RecognizerFaceTrackerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="437" column="41" selection-start-line="437" selection-start-column="41" selection-end-line="437" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/NuevoUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/asyncTask/CargarUsuarioParaReconocimiento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/layout/activity_new_user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22928709">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/menu/menu_usuario_detectado.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/res/menu/menu_editar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/PermisosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="10" selection-start-line="80" selection-start-column="8" selection-end-line="83" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/AddFaceTrackerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="542" column="0" selection-start-line="542" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
+          <folding>
+            <element signature="e#17246#17247#0" expanded="true" />
+            <element signature="e#17283#17284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/ArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="237" column="16" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="5669" column="18" selection-start-line="5669" selection-start-column="18" selection-end-line="5669" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/UsuariosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+          <folding>
+            <element signature="e#3297#3495#0" expanded="true" />
+            <element signature="e#3494#3495#0" expanded="true" />
+            <element signature="e#3582#3828#0" expanded="true" />
+            <element signature="e#3827#3828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="107" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/NuevoUsuarioActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1367816">
+          <caret line="245" column="9" selection-start-line="245" selection-start-column="9" selection-end-line="245" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/EditarUsuarioActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="553" column="78" selection-start-line="553" selection-start-column="78" selection-end-line="553" selection-end-column="78" />
+          <folding>
+            <element signature="e#6844#6991#0" expanded="true" />
+            <element signature="e#6990#6991#0" expanded="true" />
+            <element signature="e#13467#16506#0" expanded="true" />
+            <element signature="e#16505#16506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/facerecognition/src/main/java/org/opencv/javacv/facerecognition/db/BDConectar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1954023">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.07816092">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>

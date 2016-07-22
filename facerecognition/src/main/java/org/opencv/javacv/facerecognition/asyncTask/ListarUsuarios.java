@@ -5,8 +5,6 @@ import android.os.AsyncTask;
 import android.widget.Toast;
 
 import org.opencv.javacv.facerecognition.db.BDUsuario;
-import org.opencv.javacv.facerecognition.UsuarioRecognizer;
-import org.opencv.javacv.facerecognition.RecognizerFaceTrackerActivity;
 import org.opencv.javacv.facerecognition.model.Usuario;
 
 import java.util.ArrayList;
@@ -66,8 +64,8 @@ public class ListarUsuarios extends AsyncTask<Void, Integer, Integer> {
                 listener.vacio();
                 break;
             case 2:
-                ((RecognizerFaceTrackerActivity) context).personRecognizer = new UsuarioRecognizer(usuarios);
-                ((RecognizerFaceTrackerActivity) context).personRecognizer.train();
+                //((RecognizerFaceTrackerActivity) context).personRecognizer = new UsuarioRecognizer(usuarios);
+                //((RecognizerFaceTrackerActivity) context).personRecognizer.train();
                 listener.completado();
                 break;
         }

@@ -1,6 +1,7 @@
 package org.opencv.javacv.facerecognition;
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -44,20 +45,7 @@ public class UsuarioDetectadoActivity extends AppCompatActivity {
         fecha = (TextView) findViewById(R.id.nacimiento);
         edad = (TextView) findViewById(R.id.edad);
 
-        Bundle extras = getIntent().getExtras();
-        usuario = new Usuario();
-        usuario.setId(extras.getInt("id"));
-        usuario.setFace1(extras.getByteArray("face"));
-        usuario.setNombre(extras.getString("nombre"));
-        usuario.setEdad(extras.getString("edad"));
-        usuario.setApellido(extras.getString("apellido"));
-        usuario.setColor(extras.getString("color"));
-        usuario.setAmigo(extras.getString("amigo"));
-        usuario.setNacimiento(extras.getString("nacimiento"));
-        usuario.setBoton1(extras.getBoolean("boton1"));
-        usuario.setBoton2(extras.getBoolean("boton2"));
-        usuario.setBoton3(extras.getBoolean("boton3"));
-        usuario.setBoton4(extras.getBoolean("boton4"));
+        usuario = new Usuario(getIntent().getExtras());
 
         getSupportActionBar().setTitle(usuario.getNombre());
         nombre.setText(usuario.getNombre());
@@ -65,6 +53,8 @@ public class UsuarioDetectadoActivity extends AppCompatActivity {
         color.setText(usuario.getColor());
         amigo.setText(usuario.getApellido());
         edad.setText(usuario.getEdad());
+        image.setImageBitmap(BitmapFactory.decodeByteArray(getIntent().getExtras().getByteArray("faceDetect")
+                , 0, getIntent().getExtras().getByteArray("faceDetect").length));
 
         newDate = Calendar.getInstance();
         newDate.setTimeInMillis(Long.valueOf(usuario.getNacimiento()));

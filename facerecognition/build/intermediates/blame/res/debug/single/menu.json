@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\menu\\menu.xml"
     },
     {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\menu\\menu_editar.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\menu\\menu_editar.xml"
+    },
+    {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\menu\\menu_usuario_detectado.xml",
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\menu\\menu_usuario_detectado.xml"
     },

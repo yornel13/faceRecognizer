@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\layout\\chat_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usuarios.xml",
-        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\layout\\activity_usuarios.xml"
-    },
-    {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usuarios.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\layout\\activity_usuarios.xml"
     },
     {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\cedula_dialog.xml",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\layout\\cedula_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_user.xml",

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewUserActivity">
+    tools:context=".NuevoUsuarioActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -18,51 +18,169 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
+                android:layout_marginBottom="2dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:src="@drawable/universidad_agraria"
+                    android:background="?android:selectableItemBackground"
                     android:id="@+id/image1"
                     android:adjustViewBounds="true"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"/>
 
                 <ImageView
-                    android:src="@drawable/universidad_agraria"
+                    android:background="?android:selectableItemBackground"
                     android:id="@+id/image2"
                     android:adjustViewBounds="true"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1" />
 
                 <ImageView
-                    android:src="@drawable/universidad_agraria"
+                    android:background="?android:selectableItemBackground"
                     android:id="@+id/image3"
                     android:adjustViewBounds="true"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"/>
 
                 <ImageView
-                    android:src="@drawable/universidad_agraria"
+                    android:background="?android:selectableItemBackground"
                     android:id="@+id/image4"
                     android:adjustViewBounds="true"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"/>
 
                 <ImageView
-                    android:src="@drawable/universidad_agraria"
+                    android:background="?android:selectableItemBackground"
                     android:id="@+id/image5"
                     android:adjustViewBounds="true"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1" />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image6"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image7"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image8"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image9"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image10"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image11"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image12"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image13"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image14"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/image15"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/input_layout_cedula"
+                android:textColorHint="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:nextFocusDown="@+id/input_color"
+                    android:focusable="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/input_cedula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Cedula" />
+
+            </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="@dimen/activity_horizontal_margin"
@@ -75,6 +193,7 @@
                     android:nextFocusDown="@+id/input_apellido"
                     android:focusable="true"
                     android:imeOptions="actionNext"
+                    android:singleLine="true"
                     android:textColor="@color/colorAccent"
                     android:id="@+id/input_nombre"
                     android:layout_width="match_parent"
@@ -94,6 +213,7 @@
                     android:nextFocusDown="@+id/input_color"
                     android:focusable="true"
                     android:imeOptions="actionNext"
+                    android:singleLine="true"
                     android:textColor="@color/colorAccent"
                     android:id="@+id/input_apellido"
                     android:layout_width="match_parent"
@@ -114,6 +234,8 @@
                     android:focusable="true"
                     android:imeOptions="actionNext"
                     android:inputType="number"
+                    android:maxLength="2"
+                    android:singleLine="true"
                     android:textColor="@color/colorAccent"
                     android:id="@+id/input_edad"
                     android:layout_width="match_parent"
@@ -134,6 +256,7 @@
                     android:focusable="true"
                     android:textColor="@color/colorAccent"
                     android:id="@+id/input_color"
+                    android:singleLine="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Color Favorito" />
@@ -153,6 +276,7 @@
                     android:nextFocusDown="@+id/input_fecha"
                     android:textColor="@color/colorAccent"
                     android:id="@+id/input_amigo"
+                    android:singleLine="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Mejor Amigo" />

@@ -36,19 +36,7 @@ public class PermisosActivity extends AppCompatActivity implements UpdateUsuario
         checkBox4 = (CheckBox) findViewById(R.id.check_4);
 
         Bundle extras = getIntent().getExtras();
-        usuario = new Usuario();
-        usuario.setId(extras.getInt("id"));
-        usuario.setNombre(extras.getString("nombre"));
-        usuario.setEdad(extras.getString("edad"));
-        usuario.setApellido(extras.getString("apellido"));
-        usuario.setColor(extras.getString("color"));
-        usuario.setAmigo(extras.getString("amigo"));
-        usuario.setNacimiento(extras.getString("nacimiento"));
-        usuario.setFace1(extras.getByteArray("face"));
-        usuario.setBoton1(extras.getBoolean("boton1"));
-        usuario.setBoton2(extras.getBoolean("boton2"));
-        usuario.setBoton3(extras.getBoolean("boton3"));
-        usuario.setBoton4(extras.getBoolean("boton4"));
+        usuario = new Usuario(extras);
 
         getSupportActionBar().setTitle(usuario.getNombre() + " " + usuario.getApellido());
 
@@ -91,17 +79,7 @@ public class PermisosActivity extends AppCompatActivity implements UpdateUsuario
         progressDialog.dismiss();
         Toast.makeText(this, "Permisos actualizados con exito.", Toast.LENGTH_SHORT).show();
         Intent returnIntent = getIntent();
-        returnIntent.putExtra("id", usuario.getId());
-        returnIntent.putExtra("nombre", usuario.getNombre());
-        returnIntent.putExtra("apellido", usuario.getApellido());
-        returnIntent.putExtra("color", usuario.getColor());
-        returnIntent.putExtra("amigo", usuario.getAmigo());
-        returnIntent.putExtra("nacimiento", usuario.getNacimiento());
-        returnIntent.putExtra("face", usuario.getFace1());
-        returnIntent.putExtra("boton1", usuario.getBoton1());
-        returnIntent.putExtra("boton2", usuario.getBoton2());
-        returnIntent.putExtra("boton3", usuario.getBoton3());
-        returnIntent.putExtra("boton4", usuario.getBoton4());
+        usuario.saveToIntent(returnIntent);
         setResult(RESULT_OK, returnIntent);
         finish();
     }

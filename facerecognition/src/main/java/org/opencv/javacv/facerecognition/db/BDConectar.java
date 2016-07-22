@@ -5,10 +5,10 @@ import java.sql.*;
 public class BDConectar {
 
 	//static String host      = "181.196.141.66:3306";
-    static String host = "192.168.0.100:3306";
+    static String host = "192.168.0.2:3306";
     static String dataBase = "dbface";
     static String user   = "root";
-    static String password  = "123456789";
+    static String password  = "@Arcadia2015@";
     static String cadCon	= "jdbc:mysql://"+host+"/"+dataBase;
 
     public static Connection conn;

@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_red.png",
-        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable-mdpi\\ic_red.png"
-    },
-    {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_text_pressed_light.9.png",
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable-mdpi\\common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_red.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable-mdpi\\ic_red.png"
     },
     {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_text_normal_dark.9.png",
@@ -44,12 +44,16 @@
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_icon_focus_dark.9.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable-mdpi\\common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_text_focus_light.9.png",
         "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable-mdpi\\common_signin_btn_text_focus_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_icon_focus_dark.9.png",
-        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\drawable-mdpi\\common_signin_btn_icon_focus_dark.9.png"
+        "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_save_white_24dp.png",
+        "source": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\src\\main\\res\\drawable-mdpi\\ic_save_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Yornel\\Downloads\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_yellow.png",

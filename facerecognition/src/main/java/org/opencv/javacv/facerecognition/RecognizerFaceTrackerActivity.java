@@ -62,7 +62,7 @@ import org.opencv.core.Mat;
 import org.opencv.core.MatOfRect;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
-import org.opencv.javacv.facerecognition.asyncTask.ListarUsuarios;
+import org.opencv.javacv.facerecognition.asyncTask.CargarUsuarioParaReconocimiento;
 import org.opencv.javacv.facerecognition.camera.CameraSourcePreview;
 import org.opencv.javacv.facerecognition.camera.GraphicOverlay;
 import org.opencv.javacv.facerecognition.model.Usuario;
@@ -81,8 +81,9 @@ import java.util.HashMap;
  * Activity for the face tracker app.  This app detects faces with the rear facing camera, and draws
  * overlay graphics to indicate the position, size, and ID of each face.
  */
-public final class RecognizerFaceTrackerActivity extends AppCompatActivity implements
-        ListarUsuarios.ListarUsuariosCompletado, RecognizerFaceDetector.RecognizerDetectorListener {
+public final class RecognizerFaceTrackerActivity extends AppCompatActivity implements RecognizerFaceDetector.RecognizerDetectorListener, CargarUsuarioParaReconocimiento.CargarUsuarioCompletado {
+
+    private Usuario usuario;
 
     private static final String TAG = "FaceTracker";
 
@@ -100,7 +101,7 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
     Handler mHandler;
     private ProgressDialog progressDialog;
 
-    public UsuarioRecognizer personRecognizer;
+    public UsuarioRecognizerNew personRecognizer;
 
     private Mat mRgba;
     private Mat mGray;
@@ -139,6 +140,8 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
         textView = (TextView) findViewById(R.id.text);
+
+        usuario = new Usuario(getIntent().getExtras());
 
         // Check for the camera permission before accessing the camera.  If the
         // permission is not granted yet, request permission.
@@ -335,26 +338,6 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
     }
 
     @Override
-    public void completado() {
-        progressDialog.dismiss();
-        recognizerFaceDetector.setCapture(true);
-    }
-
-    @Override
-    public void vacio() {
-        progressDialog.dismiss();
-        Toast.makeText(this, "No hay usuarios en la base de datos", Toast.LENGTH_SHORT).show();
-        finish();
-    }
-
-    @Override
-    public void fallido() {
-        progressDialog.dismiss();
-        Toast.makeText(this, "Error obteniendo data", Toast.LENGTH_SHORT).show();
-        finish();
-    }
-
-    @Override
     public void onDetect(Frame frame) {
         int w = frame.getMetadata().getWidth();
         int h = frame.getMetadata().getHeight();
@@ -432,12 +415,15 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
 
                 if (id != 0 && probability > 60){
                     usuarioId = id;
-                    message = "Usuario: " + Usuario.getUsuario(personRecognizer.usuarios, id).getNombre();
+                    message = "Usuario: " + personRecognizer.usuario.getNombre();
+                    ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                    mBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                    final byte[] byteArray = stream.toByteArray();
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
                             textView.setText(message);
-                            tryRecognizer(usuarioId);
+                            tryRecognizer(byteArray);
                         }
                     });
                 } else if (id != 0){
@@ -449,7 +435,7 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
                         }
                     });
                 } else {
-                    message = "Buscando...";
+                    message = "Comparando...";
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -509,6 +495,19 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
         //Bitmap _bmp = Bitmap.createScaledBitmap(output, 60, 60, false);
         //return _bmp;
         return output;
+    }
+
+    @Override
+    public void completado() {
+        progressDialog.dismiss();
+        recognizerFaceDetector.setCapture(true);
+    }
+
+    @Override
+    public void fallido() {
+        progressDialog.dismiss();
+        Toast.makeText(this, "Error de detector", Toast.LENGTH_SHORT).show();
+        finish();
     }
 
     //==============================================================================================
@@ -581,24 +580,14 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
         recognizerFaceDetector.setCapture(true);
     }
 
-    public void tryRecognizer(Integer id) {
+    public void tryRecognizer(byte[] faceDetect) {
 
-        Usuario usuario = Usuario.getUsuario(personRecognizer.usuarios, id);
+        Usuario usuario = personRecognizer.usuario;
 
         finish();
         Intent intent = new Intent(this, UsuarioDetectadoActivity.class);
-        intent.putExtra("id", usuario.getId());
-        intent.putExtra("nombre", usuario.getNombre());
-        intent.putExtra("apellido", usuario.getApellido());
-        intent.putExtra("edad", usuario.getEdad());
-        intent.putExtra("color", usuario.getColor());
-        intent.putExtra("amigo", usuario.getAmigo());
-        intent.putExtra("nacimiento", usuario.getNacimiento());
-        intent.putExtra("face", usuario.getFace1());
-        intent.putExtra("boton1", usuario.getBoton1());
-        intent.putExtra("boton2", usuario.getBoton2());
-        intent.putExtra("boton3", usuario.getBoton3());
-        intent.putExtra("boton4", usuario.getBoton4());
+        usuario.saveToIntent(intent);
+        intent.putExtra("faceDetect", faceDetect);
         startActivity(intent);
 
     }
@@ -668,9 +657,10 @@ public final class RecognizerFaceTrackerActivity extends AppCompatActivity imple
                         Log.e(TAG, "Failed to load cascade. Exception thrown: " + e);
                     }
                     startCameraSource();
-                    ListarUsuarios nuevoUsuario = new ListarUsuarios(RecognizerFaceTrackerActivity.this,
-                            RecognizerFaceTrackerActivity.this);
-                    nuevoUsuario.execute();
+                    CargarUsuarioParaReconocimiento cargarUsuarioParaReconocimiento =
+                            new CargarUsuarioParaReconocimiento(RecognizerFaceTrackerActivity.this,
+                            RecognizerFaceTrackerActivity.this, usuario);
+                    cargarUsuarioParaReconocimiento.execute();
                     break;
                 default:
                     super.onManagerConnected(status);

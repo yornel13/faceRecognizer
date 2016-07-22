@@ -85,13 +85,21 @@
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
+            android:name="org.opencv.javacv.facerecognition.AddFaceTrackerActivity"
+            android:label="Face Tracker"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
             android:name="org.opencv.javacv.facerecognition.RecognizerFaceTrackerActivity"
             android:label="Face Tracker"
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name="org.opencv.javacv.facerecognition.NewUserActivity"
+            android:name="org.opencv.javacv.facerecognition.NuevoUsuarioActivity"
             android:label="Formulario" />
+        <activity
+            android:name="org.opencv.javacv.facerecognition.EditarUsuarioActivity"
+            android:label="Editar Usuario" />
         <activity
             android:name="org.opencv.javacv.facerecognition.UsuarioDetectadoActivity"
             android:label="Usuario"

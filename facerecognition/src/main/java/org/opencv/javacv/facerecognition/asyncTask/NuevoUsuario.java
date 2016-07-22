@@ -14,6 +14,7 @@ public class NuevoUsuario extends AsyncTask<Void, Integer, Boolean> {
     private Usuario usuario;
     private Context context;
     private NuevoUsuarioCompletado listener;
+    private int code;
 
     public NuevoUsuario(Usuario usuario, Context context, NuevoUsuarioCompletado listener) {
         this.usuario = usuario;
@@ -24,7 +25,7 @@ public class NuevoUsuario extends AsyncTask<Void, Integer, Boolean> {
     @Override
     protected Boolean doInBackground(Void... params) {
 
-        usuario.create();
+        code = usuario.create();
         if (usuario.getId() == null)
             return false;
          else
@@ -45,8 +46,12 @@ public class NuevoUsuario extends AsyncTask<Void, Integer, Boolean> {
     protected void onPostExecute(Boolean result) {
         if(result)
             listener.completado();
-        else
-            listener.fallido();
+        else {
+            if (code == 99)
+                listener.errorCedula();
+            else
+                listener.fallido();
+        }
 
     }
 
@@ -62,5 +67,7 @@ public class NuevoUsuario extends AsyncTask<Void, Integer, Boolean> {
         void completado();
 
         void fallido();
+
+        void errorCedula();
     }
 }

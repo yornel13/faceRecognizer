@@ -102,7 +102,7 @@ public final class TrainFaceTrackerActivity extends AppCompatActivity implements
     Handler mHandler;
 
     private static final Scalar FACE_RECT_COLOR = new Scalar(0, 255, 0, 255);
-    public static final long MAXIMUM = 9;
+    public static final long MAXIMUM = 15;
     private Mat mRgba;
     private Mat mGray;
     Mat faceDetect;
@@ -113,7 +113,7 @@ public final class TrainFaceTrackerActivity extends AppCompatActivity implements
     int countImages = 0;
     private Bitmap mBitmap;
     private boolean capturing;
-    ArrayList<File> usuarioFaces = new ArrayList<>();
+    ArrayList<String> usuarioFaces = new ArrayList<>();
     CountDownTimer countdown;
     boolean isCountdownStarted;
 
@@ -398,7 +398,7 @@ public final class TrainFaceTrackerActivity extends AppCompatActivity implements
             mBitmap = TrainFaceTrackerActivity.getCroppedBitmap(mBitmap);
             Utils.bitmapToMat(mBitmap, faceDetect);
 
-            usuarioFaces.add(TrainFaceDetector.saveBitmap(mBitmap, countImages + 1));
+            usuarioFaces.add(TrainFaceDetector.saveBitmap(mBitmap, countImages + 1).getAbsolutePath());
 
             countImages ++;
 
@@ -414,7 +414,7 @@ public final class TrainFaceTrackerActivity extends AppCompatActivity implements
                     capturing = false;
                 }
             });
-            if (countImages >= 5) {
+            if (countImages >= 15) {
                 urlSet(usuarioFaces);
             }
 
@@ -444,6 +444,14 @@ public final class TrainFaceTrackerActivity extends AppCompatActivity implements
         //Bitmap _bmp = Bitmap.createScaledBitmap(output, 60, 60, false);
         //return _bmp;
         return output;
+    }
+
+    public void onSave(View view) {
+        if (usuarioFaces.size() >= 3) {
+            urlSet(usuarioFaces);
+        } else {
+            Toast.makeText(this, "minimo 3 fotos", Toast.LENGTH_SHORT).show();
+        }
     }
 
     //==============================================================================================
@@ -524,16 +532,11 @@ public final class TrainFaceTrackerActivity extends AppCompatActivity implements
 
     }
 
-    public void urlSet(ArrayList<File> files) {
+    public void urlSet(ArrayList<String> files) {
 
-        Intent intent = new Intent(this, NewUserActivity.class);
-        intent.putExtra("url1", files.get(0).getAbsolutePath());
-        intent.putExtra("url2", files.get(1).getAbsolutePath());
-        intent.putExtra("url3", files.get(2).getAbsolutePath());
-        intent.putExtra("url4", files.get(3).getAbsolutePath());
-        intent.putExtra("url5", files.get(4).getAbsolutePath());
+        Intent intent = new Intent(this, NuevoUsuarioActivity.class);
+        intent.putStringArrayListExtra("files", files);
         startActivity(intent);
-
         finish();
     }
 

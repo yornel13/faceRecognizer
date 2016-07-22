@@ -1,6 +1,7 @@
 package org.opencv.javacv.facerecognition;
 
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +15,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import org.opencv.javacv.facerecognition.asyncTask.BuscaUsuarioPorCedula;
+import org.opencv.javacv.facerecognition.model.Usuario;
+
+public class MainActivity extends AppCompatActivity implements BuscaUsuarioPorCedula.BuscarUsuarioCompletado {
+
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +36,44 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void inDetection(View view) {
-        startActivity(new Intent(this, RecognizerFaceTrackerActivity.class));
+
+        final Dialog record = new Dialog(this);
+
+        record.setContentView(R.layout.cedula_dialog);
+        record.setTitle("Ingrese su cedula");
+
+        Button btnRecord = (Button) record.findViewById(R.id.btnLogin);
+        final Button btnCancel = (Button) record.findViewById(R.id.btnCancel);
+        final EditText cedula = (EditText) record.findViewById(R.id.cedula);
+
+        btnRecord.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!cedula.getText().toString().isEmpty()) {
+                    InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(cedula.getWindowToken(), 0);
+                    record.dismiss();
+
+                    progressDialog = ProgressDialog.show(MainActivity.this, "Espere",
+                            "Cargando información...", true);
+
+                    BuscaUsuarioPorCedula buscaUsuarioPorCedula = new BuscaUsuarioPorCedula(
+                            MainActivity.this, MainActivity.this, cedula.getText().toString());
+                    buscaUsuarioPorCedula.execute();
+                } else {
+                    Toast.makeText(MainActivity.this, "ingrese la cedula",
+                            Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                record.dismiss();
+            }
+        });
+
+        record.show();
     }
 
     @Override
@@ -94,4 +137,39 @@ public class MainActivity extends AppCompatActivity {
         login.show();
     }
 
+    @Override
+    public void buscarUsuarioCompletado(final Usuario usuario) {
+        progressDialog.dismiss();
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, RecognizerFaceTrackerActivity.class);
+                usuario.saveToIntent(intent);
+                startActivity(intent);
+            }
+        });
+
+    }
+
+    @Override
+    public void buscarUsuarioNoEncontrado() {
+        runOnUiThread(new Runnable() {
+              @Override
+              public void run() {
+                  Toast.makeText(MainActivity.this, "Cedula no encontrada", Toast.LENGTH_SHORT).show();
+              }
+        });
+        progressDialog.dismiss();
+    }
+
+    @Override
+    public void buscarUsuarioFallido() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(MainActivity.this, "Error de conexion", Toast.LENGTH_SHORT).show();
+            }
+        });
+        progressDialog.dismiss();
+    }
 }

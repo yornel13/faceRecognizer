@@ -3,9 +3,11 @@ package org.opencv.javacv.facerecognition;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -18,18 +20,21 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.opencv.javacv.facerecognition.asyncTask.BorrarUsuario;
 import org.opencv.javacv.facerecognition.asyncTask.ListarUsuariosParaPermisos;
 import org.opencv.javacv.facerecognition.model.Usuario;
 
 import java.util.ArrayList;
 
-public class UsuariosActivity extends AppCompatActivity implements ListarUsuariosParaPermisos.ListarUsuariosParaPermisosCompletado {
+public class UsuariosActivity extends AppCompatActivity implements
+        ListarUsuariosParaPermisos.ListarUsuariosParaPermisosCompletado, BorrarUsuario.BorrarUsuarioCompletado {
 
     ArrayList<Usuario> usuarios;
 
     ListView listView;
     private ProgressDialog progressDialog;
     private ArrayAdapter<Usuario> adapter;
+    Integer indexUsuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +46,10 @@ public class UsuariosActivity extends AppCompatActivity implements ListarUsuario
 
         listView = (ListView) findViewById(R.id.list_view);
 
+        if (savedInstanceState != null) {
+            indexUsuario = savedInstanceState.getInt("indexUsuario");
+        }
+
         usuarios = new ArrayList<>();
 
         progressDialog = ProgressDialog.show(this, "Espere", "Obteniendo usuarios...");
@@ -49,28 +58,67 @@ public class UsuariosActivity extends AppCompatActivity implements ListarUsuario
     }
 
     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putInt("indexUsuario", indexUsuario);
+        super.onSaveInstanceState(outState);
+    }
+
+    public void borrarUsuario(Usuario usuario) {
+        progressDialog = ProgressDialog.show(this, "Espere", "Borrando usuario...");
+        BorrarUsuario borrarUsuario = new BorrarUsuario(this , usuario, this);
+        borrarUsuario.execute();
+    }
+
+    public void hacerBorrado(final Usuario usuario) {
+        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setTitle("Opciones de Usuario");
+        alertDialog.setMessage("Puedes editar o borrar este usuario");
+        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "editar",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(UsuariosActivity.this, EditarUsuarioActivity.class);
+                        usuario.saveToIntent(intent);
+                        startActivityForResult(intent, 888);
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Cancelar",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "borrar",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        borrarUsuario(usuario);
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+    }
+
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 999) {
             if(resultCode == Activity.RESULT_OK){
-                Usuario usuario = new Usuario();
-                usuario.setId(data.getIntExtra("id", 0));
-                usuario.setNombre(data.getStringExtra("nombre"));
-                usuario.setEdad(data.getStringExtra("edad"));
-                usuario.setApellido(data.getStringExtra("apellido"));
-                usuario.setColor(data.getStringExtra("color"));
-                usuario.setAmigo(data.getStringExtra("amigo"));
-                usuario.setNacimiento(data.getStringExtra("nacimiento"));
-                usuario.setFace1(data.getByteArrayExtra("face"));
-                usuario.setBoton1(data.getBooleanExtra("boton1", true));
-                usuario.setBoton2(data.getBooleanExtra("boton2", true));
-                usuario.setBoton3(data.getBooleanExtra("boton3", true));
-                usuario.setBoton4(data.getBooleanExtra("boton4", true));
+                Usuario usuario = new Usuario(data.getExtras());
                 int position = usuarios.indexOf(Usuario.getUsuario(usuarios, usuario.getId()));
                 usuarios.set(position, usuario);
                 adapter.remove(adapter.getItem(position));
                 adapter.insert(usuario, position);
 
+            }
+            if (resultCode == Activity.RESULT_CANCELED) {
+                //Write your code if there's no result
+            }
+        } else if (requestCode == 888) {
+            if(resultCode == Activity.RESULT_OK){
+                Usuario usuario = new Usuario(data.getExtras());
+                usuarios.set(indexUsuario, usuario);
+                adapter.remove(adapter.getItem(indexUsuario));
+                adapter.insert(usuario, indexUsuario);
             }
             if (resultCode == Activity.RESULT_CANCELED) {
                 //Write your code if there's no result
@@ -112,6 +160,24 @@ public class UsuariosActivity extends AppCompatActivity implements ListarUsuario
         Toast.makeText(this, "Error de conexion", Toast.LENGTH_SHORT).show();
     }
 
+    @Override
+    public void borradoCompletado() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                adapter.remove(usuarios.get(indexUsuario));
+                Toast.makeText(UsuariosActivity.this, "Borrado completado", Toast.LENGTH_SHORT).show();
+            }
+        });
+        progressDialog.dismiss();
+    }
+
+    @Override
+    public void borradoFallido() {
+        Toast.makeText(this, "Error de borrado", Toast.LENGTH_SHORT).show();
+        progressDialog.dismiss();
+    }
+
     public class AdapterUsuarios extends ArrayAdapter<Usuario> {
         private final Context context;
         private final ArrayList<Usuario> usuarios;
@@ -123,7 +189,7 @@ public class UsuariosActivity extends AppCompatActivity implements ListarUsuario
         }
 
         @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(final int position, View convertView, ViewGroup parent) {
             LayoutInflater inflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View rowView = inflater.inflate(R.layout.usuario_item_row, parent, false);
@@ -136,20 +202,22 @@ public class UsuariosActivity extends AppCompatActivity implements ListarUsuario
 
                 @Override
                 public void onClick(View v) {
+                    indexUsuario = position;
                     Intent intent = new Intent(context, PermisosActivity.class);
-                    intent.putExtra("id", usuario.getId());
-                    intent.putExtra("nombre", usuario.getNombre());
-                    intent.putExtra("apellido", usuario.getApellido());
-                    intent.putExtra("color", usuario.getColor());
-                    intent.putExtra("amigo", usuario.getAmigo());
-                    intent.putExtra("nacimiento", usuario.getNacimiento());
-                    intent.putExtra("face", usuario.getFace1());
-                    intent.putExtra("boton1", usuario.getBoton1());
-                    intent.putExtra("boton2", usuario.getBoton2());
-                    intent.putExtra("boton3", usuario.getBoton3());
-                    intent.putExtra("boton4", usuario.getBoton4());
+                    usuario.saveToIntent(intent);
                     ((UsuariosActivity) context).startActivityForResult(intent, 999);
                 }
+            });
+
+            rowView.setOnLongClickListener(new View.OnLongClickListener() {
+
+                @Override
+                public boolean onLongClick(View v) {
+                    indexUsuario = position;
+                    hacerBorrado(usuario);
+                    return false;
+                }
+
             });
 
             textView.setText(usuario.getNombre() + " " + usuario.getApellido());
